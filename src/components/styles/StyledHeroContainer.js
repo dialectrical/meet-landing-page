@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const StyledHeroContainer = styled.div`
+export const StyledHeroContainer = styled.section`
   display: flex;
   flex-direction: row;
   height: 358px;
@@ -10,13 +10,15 @@ export const StyledHeroContainer = styled.div`
     font-size: 64px;
     line-height: 64px;
     font-weight: 900;
-    color: #28283D;
+    color: #28283d;
+    margin-bottom: 34px;
   }
   p {
     margin: 0;
     font-size: 18px;
     line-height: 26px;
     font-weight: 500;
-    color: #87879D;
+    color: #87879d;
+    margin-bottom: 32px;
   }
-`
+`;
