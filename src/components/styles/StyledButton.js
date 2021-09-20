@@ -6,6 +6,7 @@ export const StyledButton = styled.button`
   border: none;
   border-radius: 29px;
   color: #ffffff;
+  cursor: pointer;
   font-size: 16px;
   line-height: 26px;
   background-color: ${(props) => props.theme.background};
