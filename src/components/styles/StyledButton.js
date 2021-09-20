@@ -1,8 +1,11 @@
 import styled from "styled-components";
 
 export const StyledButton = styled.button`
-  height: 6.44vh
-  color: #FFFFFF;
+  height: 6.44vh;
+  width: ${(props) => props.theme.width};
+  border: none;
+  border-radius: 29px;
+  color: #ffffff;
   font-size: 16px;
   line-height: 26px;
   background-color: ${(props) => props.theme.background};
