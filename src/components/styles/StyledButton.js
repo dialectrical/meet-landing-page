@@ -1,15 +1,15 @@
 import styled from "styled-components";
 
-export const StyledButton = `
+export const StyledButton = styled.button`
   height: 6.44vh
   color: #FFFFFF;
   font-size: 16px;
   line-height: 26px;
   background-color: ${(props) => props.theme.background};
   :hover {
-    background-color: ${(props) => props.theme.hoverBackground};
+    background-color: ${(props) => props.theme.hover};
   }
   span {
-    color: ${(props) => props.theme.coloredText};
+    color: ${(props) => props.theme.text};
   }
 `;
