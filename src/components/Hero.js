@@ -9,8 +9,10 @@ export const Hero = () => {
       <div>
         <h2>Group Chat for Everyone</h2>
         <p>subtitle</p>
-        <StyledButton theme={primaryButton}>button 1</StyledButton>
-        <StyledButton theme={secondaryButton}>button 2</StyledButton>
+        <StyledButton theme={primaryButton}>
+          Download <span>v1.3</span>
+        </StyledButton>
+        <StyledButton theme={secondaryButton}>What is it?</StyledButton>
       </div>
     </section>
   );
