@@ -3,6 +3,7 @@ import styled from "styled-components";
 export const StyledHeroContainer = styled.section`
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   height: 358px;
   width: 100%;
   h2 {
