@@ -17,7 +17,7 @@ export const Footer = () => {
       </p>
       <StyledButton
         theme={primaryButton}
-        style={{ backgroundColor: "#D9B8FF" }}
+        style={{ backgroundColor: "#855FB1" }}
       >
         Download <span>v1.3</span>
       </StyledButton>
