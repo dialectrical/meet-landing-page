@@ -6,6 +6,9 @@ export const StyledHeroContainer = styled.section`
   justify-content: space-between;
   height: 358px;
   width: 100%;
+  img {
+    height: 303px;
+  }
   h2 {
     margin: 0 47.5px 34px 47.5px;
     font-size: 64px;
