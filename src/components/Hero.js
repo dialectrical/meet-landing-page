@@ -1,4 +1,6 @@
 import React from "react";
+import heroLeft from "../img/image-hero-left.png";
+import heroRight from "../img/image-hero-right.png";
 import { StyledHeroContainer } from "./styles/StyledHeroContainer";
 import { StyledButton } from "./styles/StyledButton";
 import { Theme } from "./Theme";
@@ -7,6 +9,7 @@ export const Hero = () => {
   const { primaryButton, secondaryButton } = Theme;
   return (
     <StyledHeroContainer>
+      <img src={heroLeft} />
       <div>
         <h2>Group Chat for Everyone</h2>
         <p>
@@ -18,6 +21,7 @@ export const Hero = () => {
         </StyledButton>
         <StyledButton theme={secondaryButton}>What is it?</StyledButton>
       </div>
+      <img src={heroRight} />
     </StyledHeroContainer>
   );
 };
