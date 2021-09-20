@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/meet-landing-page/static/css/main.4c13180c.chunk.css",
+    "main.js": "/meet-landing-page/static/js/main.ef5dba62.chunk.js",
+    "main.js.map": "/meet-landing-page/static/js/main.ef5dba62.chunk.js.map",
+    "runtime-main.js": "/meet-landing-page/static/js/runtime-main.69151fc0.js",
+    "runtime-main.js.map": "/meet-landing-page/static/js/runtime-main.69151fc0.js.map",
+    "static/js/2.f841136b.chunk.js": "/meet-landing-page/static/js/2.f841136b.chunk.js",
+    "static/js/2.f841136b.chunk.js.map": "/meet-landing-page/static/js/2.f841136b.chunk.js.map",
+    "static/js/3.cab0c34f.chunk.js": "/meet-landing-page/static/js/3.cab0c34f.chunk.js",
+    "static/js/3.cab0c34f.chunk.js.map": "/meet-landing-page/static/js/3.cab0c34f.chunk.js.map",
+    "index.html": "/meet-landing-page/index.html",
+    "static/css/main.4c13180c.chunk.css.map": "/meet-landing-page/static/css/main.4c13180c.chunk.css.map",
+    "static/js/2.f841136b.chunk.js.LICENSE.txt": "/meet-landing-page/static/js/2.f841136b.chunk.js.LICENSE.txt",
+    "static/media/image-footer.79d350b9.jpg": "/meet-landing-page/static/media/image-footer.79d350b9.jpg",
+    "static/media/image-hero-left.40626e78.png": "/meet-landing-page/static/media/image-hero-left.40626e78.png",
+    "static/media/image-hero-right.95e30a4c.png": "/meet-landing-page/static/media/image-hero-right.95e30a4c.png",
+    "static/media/image-man-texting.ce697f53.jpg": "/meet-landing-page/static/media/image-man-texting.ce697f53.jpg",
+    "static/media/image-men-in-meeting.19b0c438.jpg": "/meet-landing-page/static/media/image-men-in-meeting.19b0c438.jpg",
+    "static/media/image-woman-in-videocall.346ccf01.jpg": "/meet-landing-page/static/media/image-woman-in-videocall.346ccf01.jpg",
+    "static/media/image-women-videochatting.bd9bcb97.jpg": "/meet-landing-page/static/media/image-women-videochatting.bd9bcb97.jpg",
+    "static/media/logo.8282cfa9.svg": "/meet-landing-page/static/media/logo.8282cfa9.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.69151fc0.js",
+    "static/js/2.f841136b.chunk.js",
+    "static/css/main.4c13180c.chunk.css",
+    "static/js/main.ef5dba62.chunk.js"
+  ]
+}
