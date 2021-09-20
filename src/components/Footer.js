@@ -5,7 +5,8 @@ import imageFooter from "../img/image-footer.jpg";
 import { Theme } from "./Theme";
 
 export const Footer = () => {
-  const primaryButton = Theme;
+  const primaryButton = Theme.primaryButton;
+
   return (
     <StyledFooterContainer>
       <img src={imageFooter} />
@@ -15,10 +16,7 @@ export const Footer = () => {
         Stay connected with reliable HD meetings and unlimited one-on-one and
         group video sessions.
       </p>
-      <StyledButton
-        theme={primaryButton}
-        style={{ backgroundColor: "#855FB1" }}
-      >
+      <StyledButton theme={primaryButton}>
         Download <span>v1.3</span>
       </StyledButton>
     </StyledFooterContainer>
