@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const StyledImageContainer = styled.div`
-  margin: 310px 150px 0px 150px;
+  margin: 0px 150px 0px 150px;
   display: flex;
   flex-direction: row;
   flex-direction: center;
