@@ -8,7 +8,9 @@ export const StyledButton = styled.button`
   color: #ffffff;
   cursor: pointer;
   font-size: 16px;
+  font-family: "Red Hat Display";
   line-height: 26px;
+  font-weight: 900;
   background-color: ${(props) => props.theme.background};
   :hover {
     background-color: ${(props) => props.theme.hover};
