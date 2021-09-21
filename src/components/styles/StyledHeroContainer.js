@@ -47,5 +47,17 @@ export const StyledHeroContainer = styled.section`
       flex-basis: 50%;
       order: 2;
     }
+    h2 {
+      width: 339px;
+      height: 96px;
+      font-size: 48px;
+      margin: 0 59px 48px 59px;
+    }
+    p {
+      width: 457px;
+      height: 52px;
+      font-size: 16px;
+      margin: 24px 0 32px 0;
+    }
   }
 `;
