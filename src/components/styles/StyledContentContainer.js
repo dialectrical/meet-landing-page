@@ -10,7 +10,7 @@ export const StyledContentContainer = styled.div`
     font-weight: 900;
     color: #28283d;
     margin: 1.78vh 34.51vw 3.56vh 34.58vw;
-1  }
+  }
   h4 {
     font-size: 16px;
     line-height: 26px;
@@ -28,5 +28,18 @@ export const StyledContentContainer = styled.div`
     text-align: center;
     color: #87879d;
     margin: 3.56vh 31.25vw 0 31.25vw;
+  }
+
+  @media (max-width: 768px) {
+    h3 {
+      margin: 16px 161px 32px 162px;
+    }
+    h4 {
+      margin: 48px 246px 16px 246px;
+    }
+    p {
+      font-size: 16px;
+      margin: 32px 98px 0 97px;
+    }
   }
 `;
