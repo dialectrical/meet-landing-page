@@ -1,8 +1,8 @@
 import styled from "styled-components";
 
 export const StyledHeroContainerContent = styled.section`
-  width: 540px;
-  height: 304px;
-  margin: 0px 88px 0px 88px;
+  width: 37.5vw;
+  height: 33.78vh;
+  margin: 0 6.11vw 0 6.11vw;
   text-align: center;
 `;
