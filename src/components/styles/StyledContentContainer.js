@@ -1,16 +1,16 @@
 import styled from "styled-components";
 
 export const StyledContentContainer = styled.div`
-  margin-top: 310px;
-  marign-bottom: 184px;
+  margin-top: 34.44vh;
+  marign-bottom: 20.44vh;
   h3 {
     font-size: 40px;
     line-height: 44px;
     text-align: center;
     font-weight: 900;
     color: #28283d;
-    margin: 16px 497px 32px 498px;
-  }
+    margin: 1.78vh 34.51vw 3.56vh 34.58vw;
+1  }
   h4 {
     font-size: 16px;
     line-height: 26px;
@@ -19,7 +19,7 @@ export const StyledContentContainer = styled.div`
     text-transform: uppercase;
     font-weight: 900;
     color: #4d96a9;
-    margin: 80px 580px 16px 583px;
+    margin: 8.89vh 40.28vw 1.78vh 40.49vw;
   }
   p {
     font-size: 18px;
@@ -27,6 +27,6 @@ export const StyledContentContainer = styled.div`
     font-weight: 500;
     text-align: center;
     color: #87879d;
-    margin: 32px 450px 0px 450px;
+    margin: 3.56vh 31.25vw 0 31.25vw;
   }
 `;
