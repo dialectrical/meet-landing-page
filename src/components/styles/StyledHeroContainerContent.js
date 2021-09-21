@@ -5,4 +5,8 @@ export const StyledHeroContainerContent = styled.section`
   height: 33.78vh;
   margin: 0 6.11vw 0 6.11vw;
   text-align: center;
+  @media (max-width: 768px) {
+    flex-basis: 100%;
+    order: 3;
+  }
 `;

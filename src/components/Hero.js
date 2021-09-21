@@ -10,7 +10,7 @@ export const Hero = () => {
   const { primaryButton, secondaryButton } = Theme;
   return (
     <StyledHeroContainer>
-      <img src={heroLeft} style={{ margin: "-5.33vh 0 0 -2.22vw" }} />
+      <img src={heroLeft} className="left" />
       <StyledHeroContainerContent>
         <h2>Group Chat for Everyone</h2>
         <p>
@@ -22,7 +22,7 @@ export const Hero = () => {
         </StyledButton>
         <StyledButton theme={secondaryButton}>What is it?</StyledButton>
       </StyledHeroContainerContent>
-      <img src={heroRight} style={{ margin: "0 -2.22vw 0 0" }} />
+      <img src={heroRight} className="right" />
     </StyledHeroContainer>
   );
 };

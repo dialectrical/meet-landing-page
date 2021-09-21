@@ -9,6 +9,12 @@ export const StyledHeroContainer = styled.section`
   img {
     height: 33.67vh;
   }
+  .left {
+    margin: -5.33vh 0 0 -2.22vw;
+  }
+  .right {
+    margin: 0 -2.22vw 0 0;
+  }
   h2 {
     margin: 0vh 3.29vw 3.77vh 3.29vw;
     font-size: 64px;
@@ -25,5 +31,21 @@ export const StyledHeroContainer = styled.section`
     color: #87879d;
     margin-bottom: 3.56vh;
     width: 37.15vw;
+  }
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    height: 637px;
+    .left {
+      width: 394px;
+      height: 303px;
+      flex-basis: 50%;
+      order: 1;
+    }
+    .right {
+      width: 394px;
+      height: 303px;
+      flex-basis: 50%;
+      order: 2;
+    }
   }
 `;
