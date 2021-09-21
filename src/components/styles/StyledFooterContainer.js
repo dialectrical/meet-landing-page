@@ -52,4 +52,29 @@ export const StyledFooterContainer = styled.div`
       background-color: #b18bdd;
     }
   }
+  @media (max-width: 768px) {
+    width: 768px;
+    height: 428px;
+    flex-direction: column;
+    text-align: center;
+    div {
+      height: 428px;
+    }
+    img {
+      height: 428px;
+    }
+    h3 {
+      width: 457px;
+      height: 88px;
+      margin: 92px 156px 32px 155px;
+    }
+    p {
+      width: 573px;
+      height: 52px;
+      margin: 0 98px 0 97px;
+    }
+    button {
+      margin: 40px 288px 0 287px;
+    }
+  }
 `;
