@@ -38,12 +38,14 @@ export const StyledHeroContainer = styled.section`
     .left {
       width: 394px;
       height: 303px;
+      margin: 0 0 0 -26px;
       flex-basis: 50%;
       order: 1;
     }
     .right {
       width: 394px;
       height: 303px;
+      margin: 0 -26px 0 0;
       flex-basis: 50%;
       order: 2;
     }
