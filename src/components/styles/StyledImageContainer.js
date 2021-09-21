@@ -11,4 +11,10 @@ export const StyledImageContainer = styled.div`
     border-radius: 8px;
     margin: 0 1.04vw 0 1.04vw;
   }
+  @media (max-width: 768px) {
+    img {
+      width: 164px;
+      height: 156px;
+    }
+  }
 `;
