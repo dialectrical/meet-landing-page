@@ -22,7 +22,7 @@ export const Hero = () => {
         </StyledButton>
         <StyledButton theme={secondaryButton}>What is it?</StyledButton>
       </StyledHeroContainerContent>
-      <img src={heroRight} style={{ margin: "-0.78vh -2.22vw 0 0" }} />
+      <img src={heroRight} style={{ margin: "0 -2.22vw 0 0" }} />
     </StyledHeroContainer>
   );
 };
