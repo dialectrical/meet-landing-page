@@ -15,6 +15,9 @@ export const StyledHeroContainer = styled.section`
   .right {
     margin: 0 -2.22vw 0 0;
   }
+  .downloadButton {
+    margin-right: 16px;
+  }
   h2 {
     margin: 0vh 3.29vw 3.77vh 3.29vw;
     font-size: 64px;
@@ -36,14 +39,14 @@ export const StyledHeroContainer = styled.section`
     flex-wrap: wrap;
     height: 62.21vh;
     .left {
-      width: 51.30vw;
+      width: 51.3vw;
       height: 29.59vh;
       margin: 0 0 0 -3.39vw;
       flex-basis: 50%;
       order: 1;
     }
     .right {
-      width: 51.30vw;
+      width: 51.3vw;
       height: 29.59vh;
       margin: 0 -3.39vw 0 0;
       flex-basis: 50%;

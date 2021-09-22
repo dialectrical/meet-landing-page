@@ -17,7 +17,7 @@ export const Hero = () => {
           Meet makes it easy to connect with others face-to-face virutally and
           collaborate across any device
         </p>
-        <StyledButton theme={primaryButton} style={{ marginRight: "16px" }}>
+        <StyledButton theme={primaryButton} className="downloadButton">
           Download <span>v1.3</span>
         </StyledButton>
         <StyledButton theme={secondaryButton}>What is it?</StyledButton>
