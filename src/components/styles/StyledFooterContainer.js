@@ -54,14 +54,14 @@ export const StyledFooterContainer = styled.div`
   }
   @media (max-width: 768px) {
     width: 100vw;
-    height: 41.80vh;
+    height: 41.8vh;
     flex-direction: column;
     text-align: center;
     div {
-      height: 41.80vh;
+      height: 41.8vh;
     }
     img {
-      height: 41.80vh;
+      height: 41.8vh;
     }
     h3 {
       width: 59.5vw;
@@ -75,6 +75,34 @@ export const StyledFooterContainer = styled.div`
     }
     button {
       margin: 3.9vh 37.5vw 0 37.37vw;
+    }
+  }
+
+  @media (max-width: 375px) {
+    width: 100vw;
+    height: 428px;
+    flex-direction: column;
+    text-align: center;
+    div {
+      height: 428px;
+    }
+    img {
+      height: 428px;
+    }
+    h3 {
+      width: 327px;
+      height: 72px;
+      font-size: 32px;
+      line-height: 36px;
+      margin: 92px 24px 24px 24px;
+    }
+    p {
+      width: 327px;
+      height: 78px;
+      margin: 24px 24px 32px 24px;
+    }
+    button {
+      margin: 0 92px 0 90px;
     }
   }
 `;
