@@ -53,28 +53,28 @@ export const StyledFooterContainer = styled.div`
     }
   }
   @media (max-width: 768px) {
-    width: 768px;
-    height: 428px;
+    width: 100vw;
+    height: 41.80vh;
     flex-direction: column;
     text-align: center;
     div {
-      height: 428px;
+      height: 41.80vh;
     }
     img {
-      height: 428px;
+      height: 41.80vh;
     }
     h3 {
-      width: 457px;
-      height: 88px;
-      margin: 92px 156px 32px 155px;
+      width: 59.5vw;
+      height: 5.6vh;
+      margin: 8.98vh 20.31vw 3.13vh 20.18vw;
     }
     p {
-      width: 573px;
-      height: 52px;
-      margin: 0 98px 0 97px;
+      width: 74.6vw;
+      height: 5.08vhx;
+      margin: 3.13vh 12.76vw 0 12.63vw;
     }
     button {
-      margin: 40px 288px 0 287px;
+      margin: 3.9vh 37.5vw 0 37.37vw;
     }
   }
 `;
