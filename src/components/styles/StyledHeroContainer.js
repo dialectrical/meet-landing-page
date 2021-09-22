@@ -34,32 +34,32 @@ export const StyledHeroContainer = styled.section`
   }
   @media (max-width: 768px) {
     flex-wrap: wrap;
-    height: 637px;
+    height: 62.21vh;
     .left {
-      width: 394px;
-      height: 303px;
-      margin: 0 0 0 -26px;
+      width: 51.30vw;
+      height: 29.59vh;
+      margin: 0 0 0 -3.39vw;
       flex-basis: 50%;
       order: 1;
     }
     .right {
-      width: 394px;
-      height: 303px;
-      margin: 0 -26px 0 0;
+      width: 51.30vw;
+      height: 29.59vh;
+      margin: 0 -3.39vw 0 0;
       flex-basis: 50%;
       order: 2;
     }
     h2 {
-      width: 339px;
-      height: 96px;
+      width: 49.14vw;
+      height: 9.38vh;
       font-size: 48px;
-      margin: 0 59px 48px 59px;
+      margin: 0 7.68vw 4.69vh 7.68vw;
     }
     p {
-      width: 457px;
-      height: 52px;
+      width: 59.51vw;
+      height: 5.08vh;
       font-size: 16px;
-      margin: 24px 0 32px 0;
+      margin: 3.34vh 0 3.13vh 0;
     }
   }
 `;
