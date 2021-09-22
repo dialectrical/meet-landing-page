@@ -62,4 +62,38 @@ export const StyledHeroContainer = styled.section`
       margin: 3.34vh 0 3.13vh 0;
     }
   }
+
+  @media (max-width: 375px) {
+    flex-wrap: wrap;
+    height: 555px;
+    .left {
+      width: 199px;
+      height: 153px;
+      margin: 0 0 0 -20px;
+      flex-basis: 50%;
+      order: 1;
+    }
+    .right {
+      width: 199px;
+      height: 153px;
+      margin: 0 -20px 0 0;
+      flex-basis: 50%;
+      order: 2;
+    }
+    h2 {
+      width: 327px;
+      height: 88px;
+      font-size: 40px;
+      margin: 0 0 48px 0;
+    }
+    p {
+      width: 327px;
+      height: 78px;
+      font-size: 16px;
+      margin: 48px 0 32px 0;
+    }
+    button {
+      margin: 32px 0 16px 0;
+    }
+  }
 `;

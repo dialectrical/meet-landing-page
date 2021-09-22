@@ -12,4 +12,11 @@ export const StyledHeroContainerContent = styled.section`
     flex-basis: 100%;
     order: 3;
   }
+  @media (max-width: 375px) {
+    width: 327px;
+    height: 354px;
+    margin: 48px 24px 268px 24px;
+    flex-bassis: 100%;
+    order: 3;
+  }
 `;
