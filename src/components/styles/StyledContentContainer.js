@@ -42,4 +42,21 @@ export const StyledContentContainer = styled.div`
       margin: 32px 98px 0 97px;
     }
   }
+
+  @media (max-width: 375px) {
+    width: 327px;
+    height: 658px;
+    margin: 268px 24px 176px 24px;
+    h3 {
+      font-size: 32px;
+      line-height: 36px;
+      margin: 24px 0 32px 0;
+    }
+    h4 {
+      margin: 64px 0 24px 0;
+    }
+    p {
+      margin: 32px 24px 176px 24px;
+    }
+  }
 `;

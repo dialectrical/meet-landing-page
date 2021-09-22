@@ -17,4 +17,15 @@ export const StyledImageContainer = styled.div`
       height: 156px;
     }
   }
+  @media (max-width: 375px) {
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0;
+    img {
+      flex-basis: 50%;
+      width: 151px;
+      height: 143px;
+      margin: 8.75px -8.5px 8.75px -8.5px;
+    }
+  }
 `;
