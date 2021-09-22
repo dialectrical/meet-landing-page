@@ -87,16 +87,20 @@ export const StyledHeroContainer = styled.section`
       width: 327px;
       height: 88px;
       font-size: 40px;
-      margin: 0 0 48px 0;
+      line-height: 44px;
+      margin: 0 0 24px 0;
     }
     p {
       width: 327px;
       height: 78px;
       font-size: 16px;
-      margin: 48px 0 32px 0;
+      margin: 24px 0 32px 0;
+    }
+    .downloadButton {
+      margin-right: 0px;
     }
     button {
-      margin: 32px 0 16px 0;
+      margin: 0 0 16px 0;
     }
   }
 `;
