@@ -68,39 +68,39 @@ export const StyledHeroContainer = styled.section`
 
   @media (max-width: 375px) {
     flex-wrap: wrap;
-    height: 555px;
+    height: 148vw;
     .left {
-      width: 199px;
-      height: 153px;
-      margin: 0 0 0 -20px;
+      width: 53.07vw;
+      height: 40.8vw;
+      margin: 0 0 0 -5.33vw;
       flex-basis: 50%;
       order: 1;
     }
     .right {
-      width: 199px;
-      height: 153px;
-      margin: 0 -20px 0 0;
+      width: 53.07vw;
+      height: 40.8vw;
+      margin: 0 -5.33vw 0 0;
       flex-basis: 50%;
       order: 2;
     }
     h2 {
-      width: 327px;
-      height: 88px;
+      width: 87.2vw;
+      height: 33.47vw;
       font-size: 40px;
       line-height: 44px;
-      margin: 0 0 24px 0;
+      margin: 0 0 6.4vw 0;
     }
     p {
-      width: 327px;
-      height: 78px;
+      width: 87.2vw;
+      height: 20.8vw;
       font-size: 16px;
-      margin: 24px 0 32px 0;
+      margin: 6.4vw 0 8.53vw 0;
     }
     .downloadButton {
       margin-right: 0px;
     }
     button {
-      margin: 0 0 16px 0;
+      margin: 0 0 4.27vw 0;
     }
   }
 `;
