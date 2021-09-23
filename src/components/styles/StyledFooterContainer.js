@@ -80,29 +80,29 @@ export const StyledFooterContainer = styled.div`
 
   @media (max-width: 375px) {
     width: 100vw;
-    height: 428px;
+    height: 114.13vw;
     flex-direction: column;
     text-align: center;
     div {
-      height: 428px;
+      height: 114.13vw;
     }
     img {
-      height: 428px;
+      height: 114.13vw;
     }
     h3 {
-      width: 327px;
-      height: 72px;
+      width: 87.2vw;
+      height: 19.2vw;
       font-size: 32px;
       line-height: 36px;
-      margin: 92px 24px 24px 24px;
+      margin: 24.53vw 6.4vw 6.4vw 6.4vw;
     }
     p {
-      width: 327px;
-      height: 78px;
-      margin: 24px 24px 32px 24px;
+      width: 87.2vw;
+      height: 20.8vw;
+      margin: 6.4vw 6.4vw 32px 6.4vw;
     }
     button {
-      margin: 0 92px 0 90px;
+      margin: 0 24.53vw 0 24.53vw;
     }
   }
 `;
