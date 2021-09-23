@@ -13,9 +13,9 @@ export const StyledHeroContainerContent = styled.div`
     order: 3;
   }
   @media (max-width: 375px) {
-    width: 327px;
-    height: 354px;
-    margin: 48px 24px 268px 24px;
+    width: 87.2vw;
+    height: 94.4vw;
+    margin: 12.8vw 6.4vw 71.47vw 6.4vw;
     flex-bassis: 100%;
     order: 3;
   }
