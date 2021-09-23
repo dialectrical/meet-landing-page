@@ -44,19 +44,19 @@ export const StyledContentContainer = styled.div`
   }
 
   @media (max-width: 375px) {
-    width: 327px;
-    height: 658px;
-    margin: 268px 24px 176px 24px;
+    width: 87.2vw;
+    height: 175.47vw;
+    margin: 12.8vw 6.4vw 71.47vw 6.4vw;
     h3 {
       font-size: 32px;
       line-height: 36px;
-      margin: 24px 0 32px 0;
+      margin: 6.4vw 0 8.53vw;
     }
     h4 {
-      margin: 64px 0 24px 0;
+      margin: 17.07vw 0 6.4vw 0;
     }
     p {
-      margin: 32px 24px 176px 24px;
+      margin: 8.53vw 6.4vw 46.93vw 6.4vw;
     }
   }
 `;
