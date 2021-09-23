@@ -12,7 +12,7 @@ export const StyledHeroContainerContent = styled.div`
     flex-basis: 100%;
     order: 3;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     width: 87.2vw;
     height: 94.4vw;
     margin: 12.8vw 6.4vw 71.47vw 6.4vw;

@@ -66,7 +66,7 @@ export const StyledHeroContainer = styled.section`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     flex-wrap: wrap;
     height: 148vw;
     .left {

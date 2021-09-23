@@ -6,7 +6,7 @@ export const StyledHeaderImg = styled.img`
   @media (max-width: 768px) {
     margin: 4.69vh 42.32vw 6.25vh 42.19vw;
   }
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     margin: 12.8vw 34.13vw 14.4vw 34.13vw;
   }
 `;

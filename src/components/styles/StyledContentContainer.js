@@ -43,7 +43,7 @@ export const StyledContentContainer = styled.div`
     }
   }
 
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     width: 87.2vw;
     height: 175.47vw;
     margin: 79.47vw 6.4vw 46.93vw 6.4vw;

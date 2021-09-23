@@ -17,7 +17,7 @@ export const StyledImageContainer = styled.div`
       height: 156px;
     }
   }
-  @media (max-width: 375px) {
+  @media (max-width: 414px) {
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0;
